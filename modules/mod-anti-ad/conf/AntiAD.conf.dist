@@ -1,0 +1,76 @@
+#
+# This file is part of the WarheadCore Project. See AUTHORS file for Copyright information
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU Affero General Public License as published by the
+# Free Software Foundation; either version 3 of the License, or (at your
+# option) any later version.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+# FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for
+# more details.
+#
+# You should have received a copy of the GNU General Public License along
+# with this program. If not, see <http://www.gnu.org/licenses/>.
+#
+
+########################################
+# AntiAD module configuration
+########################################
+
+###################################################################################################
+#
+#    AntiAD.Enable
+#        Description: Enable system forbidden words.
+#        Default: 0
+#
+
+AntiAD.Enable = 0
+
+#
+#    AntiAD.MessageSend.GM.Enable
+#        Description: Enable notify all GMs.
+#        Default: 1
+#
+#    AntiAD.MessageSend.Self.Enable
+#        Description: Show forbidden word message self.
+#        Default: 1
+#
+
+AntiAD.MessageSend.GM.Enable = 1
+AntiAD.MessageSend.Self.Enable = 1
+
+#
+#    AntiAD.Mute.Player.Enable
+#        Description: Enable mute at writing forbidden word.
+#        Default: 1
+#
+#    AntiAD.Mute.GM.Enable
+#        Description: Enable mute for GMs.
+#        Default: 0
+#
+#    AntiAD.Mute.Duration
+#        Description: Mute time in minutes.
+#        Default: 1
+#
+
+AntiAD.Mute.Player.Enable = 1
+AntiAD.Mute.GM.Enable = 0
+AntiAD.Mute.Duration = 1
+
+#
+#    AntiAD.Check.Channels
+#        Description: A mask that describes which channels checks
+#
+#          Following flags are available
+#           ANTIAD_CHANNEL_SAY      = 0 // Say
+#           ANTIAD_CHANNEL_WHISPER  = 1 // Whisper
+#           ANTIAD_CHANNEL_GROUP    = 2 // Group
+#           ANTIAD_CHANNEL_GUILD    = 4 // Guild
+#           ANTIAD_CHANNEL_CHANNEL  = 8 // Channels (lfg and etc)
+#
+#        Default: 8
+#
+
+AntiAD.Check.Channels = 8

@@ -1,0 +1,68 @@
+#
+# This file is part of the WarheadCore Project. See AUTHORS file for Copyright information
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU Affero General Public License as published by the
+# Free Software Foundation; either version 3 of the License, or (at your
+# option) any later version.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+# FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for
+# more details.
+#
+# You should have received a copy of the GNU General Public License along
+# with this program. If not, see <http://www.gnu.org/licenses/>.
+#
+
+########################################
+# ItemLevelUp module configuration
+########################################
+#
+#    ILU.Enable
+#        Description: Enable this module
+#        Default: 0 (disabled)
+#                 1 (enabled)
+#
+
+ILU.Enable = 0
+
+#
+#    ILU.LevelUP.Count
+#        Description: Count levels for level up. If count > 1 set level, else just add 1 level
+#        Default: 1 (add 1 level)
+#                 80 (set max default level)
+#
+
+ILU.LevelUP.Count = 1
+
+#
+#    ILU.LevelUP.SaveExp.Enable
+#        Description: Save experience after level up
+#        Default: 0 - Disable
+#
+
+ILU.LevelUP.SaveExp.Enable = 0
+
+#
+#    ILU.Teleport.Enable
+#        Description: Enable teleport after update level
+#        Default: 0 (disabled)
+#                 1 (enabled)
+#
+#    ILU.Teleport.Location
+#        Description: World location for teleport
+#        Default: "571 5811.411 646.514 647.422 0.962198" - Dalaran
+#
+
+ILU.Teleport.Enable = 0
+ILU.Teleport.Location = "571 5811.411 646.514 647.422 0.962198"
+
+#
+#    ILU.SetMaxSkills.Enable
+#        Description: Enable set skills to max level
+#        Default: 0 (disabled)
+#                 1 (enabled)
+#
+
+ILU.SetMaxSkills.Enable = 0

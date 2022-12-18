@@ -1,0 +1,45 @@
+#
+# This file is part of the WarheadCore Project. See AUTHORS file for Copyright information
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU Affero General Public License as published by the
+# Free Software Foundation; either version 3 of the License, or (at your
+# option) any later version.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+# FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for
+# more details.
+#
+# You should have received a copy of the GNU General Public License along
+# with this program. If not, see <http://www.gnu.org/licenses/>.
+#
+
+########################################
+# UnbindInstance module configuration
+########################################
+
+########################################
+#
+#    UnbindInsance.Enable
+#        Описание: Включить модуль
+#        По умолчанию: 1
+#
+
+UnbindInsance.Enable = 1
+
+#
+#    UI.Command.Enable
+#        Описание: Включить/выключить команду .ui (Не игроки всегда могут её использовать)
+#        По умолчанию: 0
+#
+
+UI.Command.Enable = 0
+
+#
+#    UI.Command.DisabledIds
+#        Описание: Список запрещённых карт для сбрасывания через команду .ui
+#        По умолчанию: ""
+#
+
+UI.Command.DisabledIds = ""
